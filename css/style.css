@@ -1,3 +1,4 @@
+/* ---------body style section-------- */
 .btn-color{
     background-color: #E76F51 !important;
 }
@@ -7,6 +8,11 @@
 .txt-color{
     color: #E76F51;
 }
+/* --------featured bike part--------  */
 .g-scale{
     filter: grayscale(100%);
+}
+/* ---------footer style section------- */
+.footer-color{
+    background-color: #0B0D17;
 }
