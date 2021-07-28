@@ -1,0 +1,12 @@
+.btn-color{
+    background-color: #E76F51 !important;
+}
+.banner-color{
+    background-color: #264653;
+}
+.txt-color{
+    color: #E76F51;
+}
+.g-scale{
+    filter: grayscale(100%);
+}

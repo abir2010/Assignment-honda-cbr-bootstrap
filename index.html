@@ -6,9 +6,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- css stylesheet link -->
     <link rel="stylesheet" href="css/style.css">
-    <title>hoonda-CBR</title>
+    <!-- bootstrap css style link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font-awesome kit link -->
+    <script src="https://kit.fontawesome.com/49fbcb0240.js" crossorigin="anonymous"></script>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>honda-CBR</title>
 </head>
-<body>
+<body style="font-family: 'Poppins', sans-serif;">
+    <header class="banner-color m-0 pt-3">
+        <!-- navigation part -->
+        <section class="container mb-0">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center ">
+                      <li class="nav-item ms-5">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item ms-5">
+                        <a class="nav-link active text-white" href="#">Shop</a>
+                      </li>
+                      <li class="nav-item ms-5">
+                        <a class="nav-link active text-white" href="#">News</a>
+                      </li>
+                      <li class="nav-item ms-5">
+                        <a class="nav-link active text-white" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                      </li>
+                      <li class="nav-item ms-5">
+                        <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><button class="btn btn-color px-4 py-2 text-white">login</button></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </section>
+        <!-- banner part -->
+        <section class="container p-5">
+            <div class="row gy-5">
+                <div class="col col-lg-6 col-12 d-flex align-items-center">
+                    <div>
+                        <div class="justify-content-center text-white">
+                            <div>
+                                <p><small>Computer-controlled digital transistorized with electronic advance</small></p>
+                                <h1 class="fw-bold">Honda CBR 300R</h1>
+                                <br>
+                                <p class="fw-light">Honda CBR300R is an upgraded version of the CBR250R. The 300cc CBR carries a great design and uses its single cylinder engine to produce 30.4 BHP @ 8500 rpm</p>
+                            </div>
+                        </div>
+                        <!-- modal part -->
+                        <div class="">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-color px-5 py-2 text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Purchase
+                            </button>
     
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Are You Sure?</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            If you want to add Honda CBR 300R to your cart then click on confirm.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-color text-white">Confirm</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-6 col-12">
+                    <img class="img-fluid" src="images/header-bike.png" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- featured bike part -->
+        <section class="container my-5">
+            <div class="text-center">
+                <h2 class="fw-bold">Featured Bikes 2021</h2>
+                <p class="txt-color"><small>Best bike Collection</small></p>
+            </div>
+            <div class="row g-5 p-5">
+                <div class="col-12 col-lg-4 col-md-6">
+                    <img class="img-fluid g-scale p-3" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <img class="img-fluid p-3" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <img class="img-fluid g-scale p-3" src="images/feature-bike.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- latest news part -->
+        <section class="container my-5">
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <!-- javascript link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
