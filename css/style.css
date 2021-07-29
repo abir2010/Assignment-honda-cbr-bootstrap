@@ -12,6 +12,20 @@
 .g-scale{
     filter: grayscale(100%);
 }
+/* servicing part */
+.bg-img {
+    background-image: url("motorbike-mot-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service{
+    color: white;
+}
+.service:hover{
+    background-color: white;
+    color: black;
+    transition: background-color 200ms ease-in-out;
+}
 /* ---------footer style section------- */
 .footer-color{
     background-color: #0B0D17;
